@@ -317,3 +317,81 @@
   session_id: 10aa49cde49742c49771ba4edb102067
   cwd: /home/cloudshell-user
   time: 1737591042
+- command: git add .
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591057
+- command: git commit -m \"datalake\"                                                                                                                                                                                                                                  Author identity unknown                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       *** Please tell me who you are.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Run                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             git config --global user.email \"you@example.com\"                                                                                                                                                                                                                                       git config --global user.name \"Your Name\"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   to set your account's default identity.                                                                                                                                                                                                                                                Omit --global to set the identity only in this repository.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    fatal: empty ident name (for <cloudshell-user@ip-10-136-38-50.ec2.internal>) not allowed
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591066
+- command: git config --global user.email \"ayindejamiu90@gmail.com                                                                                                                                                                                                   > \"
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591090
+- command: git config --global user.name \"ayindejamiu\"
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591103
+- command: userremote add origin https://github.com/Ayindejamiu/nbadatalake.git                                                                                                                                                                                                        error: remote origin already exists.
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591115
+- command: git push                                                                                                                                                                                                                                                  fatal: The current branch master has no upstream branch.                                                                                                                                                                                                                               To push the current branch and set the remote as upstream, use                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    git push --set-upstream origin master                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     To have this happen automatically for branches without a tracking                                                                                                                                                                                                                      upstream, see 'push.autoSetupRemote' in 'git help config'.
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591127
+- command: git push --set-upstream origin master                                                                                                                                                                                                                     Username for 'https://github.com': ayindejamiu                                                                                                                                                                                                                                         Password for 'https://ayindejamiu@github.com':                                                                                                                                                                                                                                         remote: Support for password authentication was removed on August 13, 2021.                                                                                                                                                                                                            remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.                                                                                    fatal: Authentication failed for 'https://github.com/Ayindejamiu/nbadatalake.git/'
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591152
+- command: git push --set-upstream origin master                                                                                                                                                                                                                     Username for 'https://github.com': ayindejamiu                                                                                                                                                                                                                                         Password for 'https://ayindejamiu@github.com':                                                                                                                                                                                                                                         Enumerating objects: 174, done.                                                                                                                                                                                                                                                        Counting objects: 100% (174/174), done.                                                                                                                                                                                                                                                Delta compression using up to 2 threads                                                                                                                                                                                                                                                Compressing objects: 100% (89/89), done.                                                                                                                                                                                                                                               Writing objects: 100% (174/174), 12.25 MiB | 13.40 MiB/s, done.                                                                                                                                                                                                                        Total 174 (delta 10), reused 0 (delta 0), pack-reused 0                                                                                                                                                                                                                                remote: Resolving deltas: 100% (10/10), done.                                                                                                                                                                                                                                          To https://github.com/Ayindejamiu/nbadatalake.git                                                                                                                                                                                                                                       * [new branch]      master -> master                                                                                                                                                                                                                                                  branch 'master' set up to track 'origin/master'.
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591502
+- command: echo \".env\" .gitignore                                                                                                                                                                                                                                    .env .gitignore
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591549
+- command: ls                                                                                                                                                                                                                                                        nba_data_lake_setup.py  requirment.txt  setup_nba_data_lake.py  venv
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591554
+- command: touch .gitignore
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591565
+- command: echo \".env\" >> .gitignore
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591579
+- command: ls                                                                                                                                                                                                                                                        nba_data_lake_setup.py  requirment.txt  setup_nba_data_lake.py  venv
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591581
