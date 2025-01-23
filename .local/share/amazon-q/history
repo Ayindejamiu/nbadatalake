@@ -425,3 +425,39 @@
   session_id: 10aa49cde49742c49771ba4edb102067
   cwd: /home/cloudshell-user
   time: 1737591834
+- command: git add .
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591839
+- command: git commit -m \"delete resource\"                                                                                                                                                                                                                                                            [master 70f8624] delete resource                                                                                                                                                                                                                                                                                         3 files changed, 97 insertions(+), 1 deletion(-)                                                                                                                                                                                                                                                                        create mode 100644 delete_aws_resource
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591848
+- command: git push                                                                                                                                                                                                                                                                                   Username for 'https://github.com': ayindejamiu                                                                                                                                                                                                                                                                          Password for 'https://ayindejamiu@github.com':                                                                                                                                                                                                                                                                          Enumerating objects: 14, done.                                                                                                                                                                                                                                                                                          Counting objects: 100% (14/14), done.                                                                                                                                                                                                                                                                                   Delta compression using up to 2 threads                                                                                                                                                                                                                                                                                 Compressing objects: 100% (6/6), done.                                                                                                                                                                                                                                                                                  Writing objects: 100% (8/8), 2.45 KiB | 2.45 MiB/s, done.                                                                                                                                                                                                                                                               Total 8 (delta 3), reused 0 (delta 0), pack-reused 0                                                                                                                                                                                                                                                                    remote: Resolving deltas: 100% (3/3), completed with 3 local objects.                                                                                                                                                                                                                                                   To https://github.com/Ayindejamiu/nbadatalake.git                                                                                                                                                                                                                                                                          cf1893d..70f8624  master -> master
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737591862
+- command: .70f8624  master -> master                                                                                                                                                                                                                                                                                (venv) ~ $ nano .gitignore
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737592795
+- command: ls                                                                                                                                                                                                                                                                                      delete_aws_resource  nba_data_lake_setup.py  requirment.txt  setup_nba_data_lake.py  venv
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737592798
+- command: nano .gitignore
+  exit_code: 0
+  shell: bash
+  session_id: 10aa49cde49742c49771ba4edb102067
+  cwd: /home/cloudshell-user
+  time: 1737592814
